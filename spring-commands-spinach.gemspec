@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "spring-commands-spinach"
-  spec.version       = "1.0.1"
+  spec.version       = "1.0.0"
   spec.authors       = ["Jeroen van Baarsen"]
   spec.email         = ["jeroenvanbaarsen@gmail.com"]
   spec.description   = %q{spinach command for spring}
   spec.summary       = %q{spinach command for spring}
-  spec.homepage      = ""
+  spec.homepage      = "http://github.com/jvanbaarsen/spring-commands-spinach"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
