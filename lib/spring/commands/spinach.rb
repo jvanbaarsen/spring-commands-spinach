@@ -6,7 +6,7 @@ module Spring
       end
 
       def exec_name
-        "rspec"
+        "spinach"
       end
     end
 
