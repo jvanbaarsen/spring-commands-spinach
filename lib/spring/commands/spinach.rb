@@ -8,7 +8,6 @@ module Spring
       def exec_name
         "spinach"
       end
-
     end
 
     Spring.register_command "spinach", Spinach.new
